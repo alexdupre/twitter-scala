@@ -1,0 +1,12 @@
+# sbt
+/.bsp
+target/
+
+# IDEA
+/.idea
+
+# Credentials
+application.conf
+
+# Test
+Test.scala
