@@ -1,6 +1,6 @@
 # twitter-scala
 
-[![Build Status](https://travis-ci.org/alexdupre/twitter-scala.png?branch=master)](https://travis-ci.org/alexdupre/twitter-scala)
+[![Build Status](https://travis-ci.org/alexdupre/twitter-scala.png?branch=main)](https://travis-ci.org/alexdupre/twitter-scala)
 
 A Scala library for the Twitter API: https://developer.twitter.com/en/docs/twitter-api
 
@@ -38,9 +38,9 @@ libraryDependencies += "com.alexdupre" %% "twitter" % "<version>"
 
 ## Examples
 
-You can find many examples on how to use this library in the [src/test/scala](https://github.com/alexdupre/twitter-scala/tree/master/src/test/scala) directory, and you can directly run them, after entering your credentials in the `application.conf` file.
+You can find many examples on how to use this library in the [src/test/scala](https://github.com/alexdupre/twitter-scala/tree/main/src/test/scala) directory, and you can directly run them, after entering your credentials in the `application.conf` file.
 
 Two notable examples are:
-- [GetAllRecentTweets](https://github.com/alexdupre/twitter-scala/blob/master/src/test/scala/GetAllRecentTweets.scala), that shows how to handle paginated endpoints with a `fold`-like function
-- [StreamTweets](https://github.com/alexdupre/twitter-scala/blob/master/src/test/scala/StreamTweets.scala), that shows how to stream tweets with the `akka-backend`
+- [GetAllRecentTweets](https://github.com/alexdupre/twitter-scala/blob/main/src/test/scala/GetAllRecentTweets.scala), that shows how to handle paginated endpoints with a `fold`-like function
+- [StreamTweets](https://github.com/alexdupre/twitter-scala/blob/main/src/test/scala/StreamTweets.scala), that shows how to stream tweets with the `akka-backend`
 
