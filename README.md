@@ -28,7 +28,7 @@ The latest release of the library is compiled with Scala 2.13 only and supports 
 
 | Version | Artifact Id             | HTTP Provider   | Json Provider | Scala |
 | ------- | ----------------------- | --------------- | ------------- | ------|
-| 0.1     | twitter                 | sttp3           | Play-Json     | 2.13  |
+| 0.1.1   | twitter                 | sttp3           | Play-Json     | 2.13  |
 
 If you're using SBT, add the following line to your build file:
 

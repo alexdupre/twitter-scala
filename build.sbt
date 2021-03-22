@@ -2,11 +2,11 @@ name := "twitter"
 
 organization := "com.alexdupre"
 
-version := "0.1"
+version := "0.1.1"
 
 scalaVersion := "2.13.5"
 
-val sttpVersion = "3.1.6"
+val sttpVersion = "3.1.9"
 
 libraryDependencies ++= Seq(
   "com.softwaremill.sttp.client3" %% "core"              % sttpVersion,
