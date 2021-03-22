@@ -15,7 +15,7 @@ import scala.concurrent.duration._
 class StreamingTwitterClient[F[_], P <: Streams[P]](consumerKey: ConsumerKey, bearerToken: String)(implicit
     backend: SttpBackend[F, P],
     val s: P
-) extends TwitterClient(consumerKey, bearerToken) {
+) extends TwitterClient[F](consumerKey, bearerToken)(backend) {
 
   protected val streamLoggingBackend =
     LoggingBackend(backend, logger, logRequestHeaders = false, logRequestBody = false, logResponseHeaders = false, logResponseBody = false)
